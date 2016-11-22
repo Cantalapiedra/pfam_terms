@@ -2,6 +2,7 @@
 Search description of PFAM terms with RESTful API
 
 ```bash
+# code in bash
 # pfam_terms.tab contains a list of PFAM identifiers
 
 cat pfam_terms.tab | while read  pfam; do
