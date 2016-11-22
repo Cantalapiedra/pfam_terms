@@ -2,8 +2,8 @@
 Search description of PFAM terms with RESTful API
 
 '''
-//Code in bash
-//pfam_terms.tab contains a list of PFAM identifiers
+# Code in bash
+# pfam_terms.tab contains a list of PFAM identifiers
 
 cat pfam_terms.tab | while read  pfam; do
 desc=$(curl http://pfam.xfam.org/family/"$pfam"/desc | head -1);
