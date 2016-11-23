@@ -1,5 +1,5 @@
 # pfam_terms
-Search description of PFAM terms with RESTful API
+Search description of PFAM terms with [RESTful API](http://pfam.xfam.org/help#tabview=tab11)
 
 ```bash
 # code in bash
